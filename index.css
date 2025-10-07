@@ -1,0 +1,84 @@
+:root {
+    --dark-blue: #006d77;
+    --light-blue: #83c5be;
+    --white: #edf6f9;
+    --light-pink: #ffddd2;
+    --dark-pink: #e29578;
+}
+
+body {
+    margin: 0;
+    background-color: var(--dark-blue);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 80px 50px
+}
+
+.subtitle {
+    color: #ddd;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 40px;
+}
+
+.selection-toggle {
+    color: #ddd;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    width: 450px;
+    padding-bottom: 3px;
+}
+
+.nbCharacters {
+    color: #ddd;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#containCharacters {
+    width: 60px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    margin-left: 10px;
+}
+
+button {
+    background-color: var(--dark-pink);
+    color: var(--dark-blue);
+    font-weight: bold;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.whiteColor {
+    color: var(--white);
+}
+
+.pinkColor {
+    color: var(--dark-pink);
+}
+
+.passwords {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ccc;
+    width: 450px;
+}
+
+.password-btn {
+    cursor: pointer;
+    background-color: var(--light-blue);
+    color: var(--light-pink);
+    text-shadow: 0 0 3px #333;
+    min-width: 170px;
+    min-height: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1><span class="whiteColor">Generate a</span><br><span class="pinkColor">random password</span></h1>
+        <p class="subtitle">Never use an insecure password again.</p>
+        <div class="nbCharacters">
+            <label class="whiteColor" for="caracters">Number of caracters</label>
+            <input type="number" id="containCharacters" name="caracters" min="10" max="20" value="15">
+        </div>
+        <div class="selection-toggle">
+            <input type="checkbox" id="includeNumbers" checked>
+            <label for="includeNumbers">Include numbers</label>
+            <input type="checkbox" id="includeSymbols" checked>
+            <label for="includeSymbols">Include symbols</label>
+        </div>
+        <button onclick="generatePasswords()">Generate passwords</button>
+        <div class="passwords">
+            <div class="password-section">
+                <p class="password-btn" id="passwordOne"></p>
+                <button onclick="copyTextOne()">Copy password</button>
+            </div>
+            <div class="password-section">
+                <p class="password-btn" id="passwordTwo"></p>
+                <button onclick="copyTextTwo()">Copy password</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
