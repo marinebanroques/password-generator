@@ -1,9 +1,9 @@
 :root {
-    --dark-blue: #006d77;
-    --light-blue: #83c5be;
+    --dark-blue: #023047;
+    --light-blue: #219ebc;
     --white: #edf6f9;
-    --light-pink: #ffddd2;
-    --dark-pink: #e29578;
+    --light-yellow: #ffb703;
+    --dark-yellow: #fb8500;
 }
 
 body {
@@ -46,7 +46,7 @@ body {
 }
 
 button {
-    background-color: var(--dark-pink);
+    background-color: var(--dark-yellow);
     color: var(--dark-blue);
     font-weight: bold;
     border: none;
@@ -61,8 +61,8 @@ button {
     color: var(--white);
 }
 
-.pinkColor {
-    color: var(--dark-pink);
+.yellowColor {
+    color: var(--dark-yellow);
 }
 
 .passwords {
@@ -75,7 +75,7 @@ button {
 .password-btn {
     cursor: pointer;
     background-color: var(--light-blue);
-    color: var(--light-pink);
+    color: var(--light-yellow);
     text-shadow: 0 0 3px #333;
     min-width: 170px;
     min-height: 20px;
